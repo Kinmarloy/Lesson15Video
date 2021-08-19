@@ -25,8 +25,10 @@ dependencies {
             "io.rest-assured:rest-assured:4.3.1",
             "io.qameta.allure:allure-java-commons:$allureVersion",
             "io.qameta.allure:allure-rest-assured:$allureVersion",
+            "org.json:json:20171018",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
+
 }
 
 tasks.withType(JavaCompile) {
